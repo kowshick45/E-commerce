@@ -1,0 +1,79 @@
+.product-item
+{
+    border:1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    padding:20px;
+    margin:20px;
+    text-align: center;
+    animation: drop 1s ease;
+}
+
+.product-it
+{
+    border:1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    padding:20px;
+    margin:20px;
+    text-align: center;
+    animation: drop 1s ease;
+    
+}
+
+
+.product-ite
+{
+    border:1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    padding:20px;
+    margin:20px;
+    text-align: center;
+    animation: drop 1s ease;
+    
+}
+
+.product-item:hover
+{
+    transform: scale(1.1);
+}
+
+.product-ite:hover
+{
+    transform: scale(1.1);
+    
+
+
+}
+
+@keyframes drop
+{
+    0% { transform: translatey(-500px); }
+    100% { transform: translatey(10px); }
+}
+
+.product-it:hover
+{
+    transform: scale(1.1);
+}
+
+
+#lenovosrc , #Macbooksrc 
+{
+    width:300px;
+}
+
+#card
+{
+    display: grid;
+  grid-template-columns: repeat(4, 1fr);  
+  justify-items: center; 
+  gap: -10px;
+  padding: 20px;
+}
+
+#victussrc
+{
+    width:300px;
+}

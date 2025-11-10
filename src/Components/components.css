@@ -1,0 +1,22 @@
+#login
+{
+    border:2px solid black;
+    width: 100px;
+    padding :10px 20px;
+    color:rgb(255, 145, 0);
+    background-color: yellow;
+    font-size: 20px;
+    border-radius: 20px;
+}   
+#loginpage
+{
+    border:1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    padding:20px;
+    margin:20px;
+    margin-top: 20px;
+    margin-left:500px;
+    margin-right:500px;
+    text-align: center;
+}
