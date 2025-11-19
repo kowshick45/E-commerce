@@ -1,13 +1,38 @@
-#buypage
-{
-    border:1px solid black;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px grey;
-    padding:20px;
-    margin:20px;
-    margin-left: 550px;
-    margin-right: 550px;
-    text-align: center;
-    
+#buypage {
+  width: 350px;
+  margin: 60px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+}
 
+#buypage:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+
+#buypage input {
+  width: 90%;
+  margin: 8px 0;
+  padding: 10px;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+
+.buy-btn {
+  padding: 10px 20px;
+  background: orange;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.buy-btn:hover {
+  background: rgb(255, 145, 0);
 }

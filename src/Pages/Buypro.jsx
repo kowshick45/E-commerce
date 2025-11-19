@@ -49,7 +49,7 @@ const productlist = localStorage.getItem("productcount")
     <br></br>
     the total amount: {totalprice.toLocaleString()}
     <br></br>
-    <button onClick={paynow}>Pay Now</button>
+    <button onClick={paynow} className="buy-btn">Pay Now</button>
     </div>
     </div>
 
